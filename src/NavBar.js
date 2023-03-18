@@ -26,7 +26,6 @@ function NavBar() {
       </NavLink>
       <NavLink
         to="/yarns"
-        exact
         style={linkStyles}
         activestyle={{
           background: "darkblue",
@@ -36,7 +35,6 @@ function NavBar() {
       </NavLink>
       <NavLink
         to="/yarns/new"
-        exact
         style={linkStyles}
         activestyle={{
           background: "darkblue",

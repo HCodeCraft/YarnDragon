@@ -19,7 +19,7 @@ const Yarns = ({yarn}) => {
 
     // eventually include {yarn.amount} , {yarn.plans} , and {yarn.origin}
 
-    const yarnList = yarnsState.map((yarn) => <Yarn name={yarn.name} image={yarn.image} body=  {yarn.colorway} /> )
+    const yarnList = yarnsState.map((yarn) => <Yarn name={yarn.name} image={yarn.image} body=  {yarn.colorway} key={yarn.name} /> )
 
   return (
     <div>

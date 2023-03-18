@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const NewYarnForm = () => {
 
@@ -10,6 +11,8 @@ const NewYarnForm = () => {
         plans: '',
         origin: ''
     })
+
+    const navigate = useNavigate()
 
 
     useEffect(() => {
@@ -37,6 +40,27 @@ const NewYarnForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        const newYarn = {
+            name: yarnsState.name,
+            image: yarnsState.image,
+            colorway: yarnsState.colorway,
+            amount: yarnsState.amount,
+            plans: yarnsState.plans,
+            origin: yarnsState.origin
+        }
+        
+        fetch('http://localhost:3001/yarns', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newYarn)
+        })
+        .then( r => r.json())
+        .then( (data) => {
+            console.log(data)
+            navigate('/yarns')
+        })
 
 
     }
