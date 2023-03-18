@@ -4,7 +4,7 @@ import { Route, NavLink, Routes } from "react-router-dom";
 const linkStyles = {
     display: "inline-block",
     justify:"center",
-    width: "80px",
+    width: "60px",
     padding: "12px",
     margin: "0 6px 6px",
     background: "#9f83ff",
@@ -18,7 +18,7 @@ function NavBar() {
       <NavLink
         to="/"
         style={linkStyles}
-        activeStyle={{
+        activestyle={{
           background: "darkblue",
         }}
       >
@@ -28,7 +28,7 @@ function NavBar() {
         to="/yarns"
         exact
         style={linkStyles}
-        activeStyle={{
+        activestyle={{
           background: "darkblue",
         }}
       >
@@ -38,7 +38,7 @@ function NavBar() {
         to="/yarns/new"
         exact
         style={linkStyles}
-        activeStyle={{
+        activestyle={{
           background: "darkblue",
         }}
       >
