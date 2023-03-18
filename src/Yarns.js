@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Yarn from './Yarn'
 import './Yarn.css'
+import NewYarnButton from './NewYarnButton'
 
 const Yarns = ({yarn}) => {
 
@@ -26,7 +27,7 @@ const Yarns = ({yarn}) => {
         <hr/>
         {yarnList}
         <br/>
-
+        <NewYarnButton/>
     </div>
   )
 }
