@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Yarn = ({name, image, body}) => {
+const Yarn = ({name, image, body, weight}) => {
   return (
     <div className='card-container'>
         <div className='image-container'>
@@ -12,6 +12,8 @@ const Yarn = ({name, image, body}) => {
         </div>
         <div className="card-body">
             <p>{body}</p>
+            <br/>
+            <p>{weight}</p>
         </div>
 
         <div className='btn'>

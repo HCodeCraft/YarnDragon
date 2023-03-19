@@ -3,7 +3,12 @@
 }
 
 body {
-  background-color: #FFDD83
+  /* background-color: #7b872d */
+  background-color: black
+}
+
+.Home {
+  color: white;
 }
 
 .App-logo {

@@ -1,9 +1,10 @@
 .card-container{
     width: 300px;
     overflow: hidden;
-    box-shadow: 10px 0px 15px -5px #9f83ff;
+    box-shadow: 10px 0px 15px -5px #872d7b;
     transition: 0.3s;
     animation: ease-in;
+    color: white
 }
 
 .card-container:hover{
@@ -15,12 +16,15 @@
 .image-container img{
     overflow: hidden;
     height: 200px;
+    
+    
 
 }
 
 .card-content {
     margin: 1 rem;
     margin-top: 0.3rem;
+    
 }
 
 h3, p {
