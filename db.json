@@ -5,6 +5,7 @@
       "name": "Lion Brand Scarfie",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.bjvBL-b_Y4lsyiOxztTSvAHaHa%26pid%3DApi&f=1&ipt=1b4f4d3cbbd6ad02959afcf0ad50a6c10494a0aa3696257f732c10885fb6c6e6&ipo=images",
       "colorway": "Black/Royal",
+      "weight": "",
       "amount": "3 skiens",
       "plans": "Make a poncho",
       "origin": "Amazon.com"
@@ -13,6 +14,7 @@
       "name": "Fantasy yarn",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.w4GH7oiPsrG7UIT4QWeEHwHaHc%26pid%3DApi&f=1&ipt=c331f3e0aa280a43a41c3f9e4e604052d4ea211e2f30a8114699afa4476b09c9&ipo=images",
       "colorway": "Mystery blue sparkle",
+      "weight": "",
       "amount": "1 ball",
       "plans": "To gaze upon it's beauty",
       "origin": "Google search",
@@ -22,10 +24,31 @@
       "name": "Sequin Black Yarn",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.gUpLBJ-xR4JR4c6ZL7PqOwHaHa%26pid%3DApi&f=1&ipt=e5a1fa540673c00551b175497dcd696d0a3be16abfd0499fd69baccb96736bc0&ipo=images",
       "colorway": "Starry Galaxy",
+      "weight": "",
       "amount": "1 ball",
       "plans": "To salivate over it",
       "origin": "google",
       "id": 3
+    },
+    {
+      "name": "Fantastica",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.G7XQv2JrvhQCkn8Fl2gCkwHaFi%26pid%3DApi&f=1&ipt=5bfc7136bf62c8be8306da7a95ca2303f60754dcbab15c02b78bc2231ecd6ee2&ipo=images",
+      "colorway": "ICE yarns Magic Glitz Rainbow",
+      "weight": "Worsted",
+      "amount": "1 skien",
+      "plans": "Make a unicorn amigurumi",
+      "origin": "Ice yarns website",
+      "id": 4
+    },
+    {
+      "name": "Super Bulky Rainbow",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.afP85-DQorvT584kItDxwAHaF-%26pid%3DApi&f=1&ipt=a1666248d943397b321d1dd4e765165004d9781794c8001e189ca1e000cdadef&ipo=images",
+      "colorway": "Rainbow",
+      "weight": "Super Bulky",
+      "amount": "40 yards",
+      "plans": "A pointed elf hat with scales",
+      "origin": "Michaels",
+      "id": 5
     }
   ]
 }

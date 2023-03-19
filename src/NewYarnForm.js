@@ -24,6 +24,7 @@ const NewYarnForm = () => {
                 name: data[0].name,
                 image: data[0].image,
                 colorway: data[0].colorway,
+                weight: data[0].weight,
                 amount: data[0].amount,
                 plans: data[0].plans,
                 origin: data[0].origin
@@ -44,6 +45,7 @@ const NewYarnForm = () => {
             name: yarnsState.name,
             image: yarnsState.image,
             colorway: yarnsState.colorway,
+            weight: yarnsState.weight,
             amount: yarnsState.amount,
             plans: yarnsState.plans,
             origin: yarnsState.origin
@@ -79,6 +81,17 @@ const NewYarnForm = () => {
             <br/>
             <label>Colorway:</label>
             <input name="colorway" onChange={handleChange} type="text"/> <br/>
+            <br/>
+            <label>Weight:</label>
+            <select name="weight" onChange={handleChange}>
+                <option value="Lace">Lace</option>
+                <option value="Sock">Sock</option>
+                <option value="Light DK/Sport">Light DK/Sport</option>
+                <option value="DK/Light Worsted">DK/Light Worsted</option>
+                <option value="Worsted">Light DK/Sport</option>
+                <option value="Bulky/Chunky">Bulky/Chunky</option>
+                <option value="Super Bulky">Super Bulky</option>
+            </select><br/>
             <br/>
             <label>Amount:</label>
             <input  name="amount" onChange={handleChange} type="text"/> <br/>
