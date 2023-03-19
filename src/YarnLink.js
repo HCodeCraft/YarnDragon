@@ -2,10 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-const YarnLink = () => {
+const YarnLink = ({yarn}) => {
   return (
     
-    <Link>
+    <Link to={`/yarns/${yarn.id}`}>
+        <h4>Show Plans </h4>
     
     
     </Link>

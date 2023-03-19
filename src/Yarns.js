@@ -23,8 +23,8 @@ const Yarns = ({yarn}) => {
 
   return (
     <div className='Home'>
-        <h3 >My Yarns</h3>
-        <hr/>
+        <h1 >My Yarns</h1>
+        
         {yarnList}
         <br/>
         <NewYarnButton/>

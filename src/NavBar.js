@@ -5,7 +5,7 @@ import Banner from './YDV2.jpg';
 const linkStyles = {
     display: "inline-block",
     justify:"center",
-    width: "60px",
+    width: "100px",
     padding: "12px",
     margin: "0 6px 6px",
     background: "#872d7b",

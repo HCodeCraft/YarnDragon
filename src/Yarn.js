@@ -1,6 +1,7 @@
 import React from 'react'
+import YarnLink from './YarnLink'
 
-const Yarn = ({name, image, body, weight}) => {
+const Yarn = ({name, image, body, weight, yarn}) => {
   
   
     return (
@@ -20,9 +21,7 @@ const Yarn = ({name, image, body, weight}) => {
 
         <div className='btn'>
         <button>
-            <a>
-                View more
-            </a>
+            {/* <YarnLink yarn={yarn}/> */}
         </button>
         </div>
 
