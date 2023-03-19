@@ -22,8 +22,8 @@ const Yarns = ({yarn}) => {
     const yarnList = yarnsState.map((yarn) => <Yarn name={yarn.name} image={yarn.image} body=  {yarn.colorway} key={yarn.name} weight={yarn.weight} /> )
 
   return (
-    <div>
-        <h3>My Yarns</h3>
+    <div className='Home'>
+        <h3 >My Yarns</h3>
         <hr/>
         {yarnList}
         <br/>

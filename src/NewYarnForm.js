@@ -69,7 +69,7 @@ const NewYarnForm = () => {
 
 
   return (
-    <div>
+    <div className='Home'>
         <br/>
         <br/>
         <form onSubmit={handleSubmit}>

@@ -1,7 +1,9 @@
 import React from 'react'
 
 const Yarn = ({name, image, body, weight}) => {
-  return (
+  
+  
+    return (
     <div className='card-container'>
         <div className='image-container'>
             <img src={image} alt='' />
