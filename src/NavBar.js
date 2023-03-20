@@ -16,8 +16,13 @@ const linkStyles = {
 function NavBar() {
   return (
     <div>
-        <img src={Banner} alt='Yarn Dragon Banner'/>
+        <div className='banner'>
+            <img src={Banner} alt='Yarn Dragon Banner'/>
+            <br/>
+            <br/>
+        </div>
         <br/>
+        <div className='links'>
       <NavLink
         to="/"
         style={linkStyles}
@@ -45,6 +50,7 @@ function NavBar() {
       >
         Add a Yarn
       </NavLink>
+      </div>
     </div>
   );
 }

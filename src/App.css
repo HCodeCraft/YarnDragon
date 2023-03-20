@@ -4,7 +4,19 @@
 
 body {
   /* background-color: #7b872d */
-  background-color: black
+  background-color: black;
+
+}
+
+.banner {
+  justify-content: center;
+  display:flex
+
+}
+
+.links {
+  justify-content: center;
+  display: flex
 }
 
 .Home {
