@@ -22,12 +22,11 @@ const Yarns = ({yarn}) => {
     const yarnList = yarnsState.map((yarn) => <Yarn name={yarn.name} image={yarn.image} body=  {yarn.colorway} key={yarn.name} weight={yarn.weight} /> )
 
   return (
-    <div className='Home'>
-        <h1 >My Yarns</h1>
-        
+    <div >
+        <h1 class='title'>My Yarns</h1>
         {yarnList}
         <br/>
-        <NewYarnButton/>
+        
     </div>
   )
 }

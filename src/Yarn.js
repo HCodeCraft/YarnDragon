@@ -12,17 +12,20 @@ const Yarn = ({name, image, body, weight, yarn}) => {
         <div className='card-content'>
         <div className='card-title'>
             <h3>{name}</h3>
+            <br/>
         </div>
         <div className="card-body">
             <p>{body}</p>
             <br/>
             <p>{weight}</p>
         </div>
-
+     
         <div className='btn'>
         <button>
-            {/* <YarnLink yarn={yarn}/> */}
+            Show notes/plans
         </button>
+        <br/>
+        <br/>
         </div>
 
         </div>

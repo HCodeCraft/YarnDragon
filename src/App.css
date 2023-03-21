@@ -8,10 +8,26 @@ body {
 
 }
 
+.content{
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .banner {
   justify-content: center;
-  display:flex
+  display:flex;
+  
 
+}
+
+.welcome{
+  align-content: center;
+  justify-content: center;
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .links {
@@ -19,8 +35,38 @@ body {
   display: flex
 }
 
+.home-flex-container {
+  flex-direction: column;
+  display:flex
+}
+
+.title {
+  color:white;
+  display:flex;
+  justify-content: center;
+}
+
+button {
+  margin: 10%;
+}
+
+.homeimg {
+  display:inline-block;
+  height:100%;
+  width:100%
+}
+
+
+
+
 .Home {
   color: white;
+  justify-content:center; 
+  align-content:center; 
+  display:flex;
+  /* flex-wrap: wrap; */
+  flex-direction:column;
+  
 }
 
 .App-logo {
