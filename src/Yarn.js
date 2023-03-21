@@ -1,9 +1,11 @@
 import React from 'react'
 import YarnLink from './YarnLink'
+import {Link} from 'react-router-dom'
 
-const Yarn = ({name, image, body, weight, yarn}) => {
+const Yarn = ({name, image, body, weight, id}) => {
   
-  
+console.log("yarn id", id)
+
     return (
     <div className='card-container'>
         <div className='image-container'>
@@ -21,9 +23,10 @@ const Yarn = ({name, image, body, weight, yarn}) => {
         </div>
      
         <div className='btn'>
-        <button>
-            Show notes/plans
-        </button>
+            <Link to={`${id}`}>
+                <button>Show notes/plans</button>
+            </Link>
+        {/* <YarnLink id={id}/> */}
         <br/>
         <br/>
         </div>

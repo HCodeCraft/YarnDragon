@@ -6,6 +6,7 @@ import Yarns from './Yarns'
 import NewYarnForm from './NewYarnForm'
 import Yarn from './Yarn'
 import NavBar from './NavBar'
+import YarnDetails from './YarnDetails';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
               <Route path='/' element={<Home />}/>
               <Route path='/yarns' element={<Yarns />}/>
               <Route path='/yarns/new' element={<NewYarnForm />}/>
-              <Route path='/yarns/:id' element={<Yarn />}/>
+              {/* <Route path='/yarns/:id' element={<Yarn />}/> */}
+              <Route path='yarns/*' element={<YarnDetails />}/>
             </Routes>
          </div>
       </>
