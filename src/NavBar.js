@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, NavLink, Routes } from "react-router-dom";
+import {  NavLink} from "react-router-dom";
 import Banner from './YDV2.jpg';
 
 const linkStyles = {
@@ -14,8 +14,13 @@ const linkStyles = {
 }
 
 function NavBar() {
+
+
+
+
   return (
     <div class='top'>
+      
         <div className='banner'>
             <img src={Banner} alt='Yarn Dragon Banner'/>
             <br/>

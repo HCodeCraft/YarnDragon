@@ -1,10 +1,11 @@
 import React from 'react'
 import YarnLink from './YarnLink'
-import {Link} from 'react-router-dom'
+import {Link, useOutletContext} from 'react-router-dom'
 
 const Yarn = ({name, image, body, weight, id}) => {
   
 console.log("yarn id", id)
+
 
     return (
     <div className='card-container'>
@@ -17,9 +18,9 @@ console.log("yarn id", id)
             <br/>
         </div>
         <div className="card-body">
-            <p>{body}</p>
+            <p>Colorway: {body}</p>
             <br/>
-            <p>{weight}</p>
+            <p>Weight: {weight}</p>
         </div>
      
         <div className='btn'>
