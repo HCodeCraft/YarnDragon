@@ -63,6 +63,7 @@ const NewYarnForm = () => {
             .then((r) => r.json())
             .then((data) => {
               console.log(data);
+              context.addYarn(data)
               navigate("/yarns");
             });
         };

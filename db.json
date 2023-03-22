@@ -79,6 +79,16 @@
       "plans": "Flowers and amigurumi",
       "origin": "Amazon.com",
       "id": 8
+    },
+    {
+      "name": "Fun Fur",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.etsystatic.com%2F5255420%2Fr%2Fil%2F3a76ed%2F1486653603%2Fil_fullxfull.1486653603_ren8.jpg&f=1&nofb=1&ipt=f3504ba0eba4b7e7fbf7759c18a5232dbcc9198999de8b54e61f1dd093321318&ipo=images",
+      "colorway": "Fluffernutter red",
+      "weight": "Sock",
+      "amount": "1 skien",
+      "plans": "Trim for a jacket",
+      "origin": "ebay.com",
+      "id": 9
     }
   ]
 }
