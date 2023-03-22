@@ -15,10 +15,13 @@ const MyProvider = (props) => {
   
     console.log("yarnsState", yarnsState)
 
-
+const addYarn = (yarn) => {
+    setYarnsState([...yarnsState, yarn])
+}
 
     return (<MyContext.Provider value={{
-        yarnsState: yarnsState
+        yarnsState: yarnsState,
+        addYarn: addYarn
     }}>
         {props.children}
     </MyContext.Provider>

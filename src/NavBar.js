@@ -15,7 +15,7 @@ const linkStyles = {
 
 function NavBar() {
   return (
-    <div class="top">
+    <div className="top">
       <div className="banner">
         <img src={Banner} alt="Yarn Dragon Banner" />
         <br />
