@@ -24,7 +24,7 @@ const Yarn = (props) => {
           <br />
         </div>
         <div className="card-body">
-          <p>Colorway: {yarn.weight}</p>
+          <p>Colorway: {yarn.colorway}</p>
           <br />
           <p>Weight: {yarn.weight}</p>
         </div>
