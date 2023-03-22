@@ -49,6 +49,26 @@
       "plans": "A pointed elf hat with scales",
       "origin": "Michaels",
       "id": 5
+    },
+    {
+      "name": "Mystery Yarn",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.d38zHGvCpArkkBKGghLjRgHaFj%26pid%3DApi&f=1&ipt=499260112072c66ce506b77623f5ae0fbabc09f556d0dcb6d2b82a2a76ac7d5c&ipo=images",
+      "colorway": "???",
+      "weight": "DK/Light Worsted",
+      "amount": "1 skien",
+      "plans": "Make a poncho",
+      "origin": "Found on the sidewalk",
+      "id": 6
+    },
+    {
+      "name": "Fuzzy brown yarn",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FUAcAAOSwMz5fu3g4%2Fs-l300.jpg&f=1&nofb=1&ipt=f2a32995c0a392d6e213667beed5819085a14ab414fb227c55d6fa26e0ad123d&ipo=images",
+      "colorway": "Black/Royal",
+      "weight": "Light DK/Sport",
+      "amount": "1 skien",
+      "plans": "Trim for fantasy cape",
+      "origin": "ebay.com",
+      "id": 7
     }
   ]
 }

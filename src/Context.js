@@ -1,9 +1,31 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
-const Context = () => {
-  return (
-    <div>Context</div>
-  )
+const MyContext = React.createContext() 
+
+const MyProvider = (props) => {
+    const [yarnsState, setYarnsState] = useState([])
+
+    useEffect(() => {
+        fetch('http://localhost:3001/yarns')
+        .then((res) => res.json())
+        .then((data) => {
+            setYarnsState(data)
+        })
+    }, []) 
+  
+    console.log("yarnsState", yarnsState)
+
+
+
+    return (<MyContext.Provider value={{
+        yarnsState: yarnsState
+    }}>
+        {props.children}
+    </MyContext.Provider>
+    )
 }
 
-export default Context
+const MyConsumer = MyContext.Consumer
+
+
+export { MyProvider, MyConsumer }

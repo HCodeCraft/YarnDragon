@@ -5,12 +5,17 @@
 body {
   /* background-color: #7b872d */
   background-color: black;
-  color:white
-
+  color: white;
 }
 
-.content{
-  display:flex;
+.yarn-box {
+  justify-content: center;
+  align-items: center;
+  flex-wrap:nowrap
+}
+
+.content {
+  display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center;
@@ -19,31 +24,29 @@ body {
 
 .banner {
   justify-content: center;
-  display:flex;
-  
-
+  display: flex;
 }
 
-.welcome{
+.welcome {
   align-content: center;
   justify-content: center;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
 }
 
 .links {
   justify-content: center;
-  display: flex
+  display: flex;
 }
 
 .home-flex-container {
   flex-direction: column;
-  display:flex
+  display: flex;
 }
 
 .title {
-  color:white;
-  display:flex;
+  color: white;
+  display: flex;
   justify-content: center;
 }
 
@@ -52,22 +55,18 @@ button {
 }
 
 .homeimg {
-  display:inline-block;
-  height:100%;
-  width:100%
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
-
-
-
 
 .Home {
   color: white;
-  justify-content:center; 
-  align-content:center; 
-  display:flex;
+  justify-content: center;
+  align-content: center;
+  display: flex;
   /* flex-wrap: wrap; */
-  flex-direction:column;
-  
+  flex-direction: column;
 }
 
 .App-logo {
