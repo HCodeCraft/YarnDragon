@@ -113,4 +113,22 @@ button {
 .title{
   display:flex;
   align-items:center;
+ 
+}
+
+.yarnfilter{
+  display:flex;
+  /* align-content: center; */
+  flex-wrap: wrap;
+  align-items:baseline;
+  justify-content:end;
+  gap:40%
+ 
+}
+
+select{
+  width:130px;
+  height:30px;
+  background-color: #333333;
+  color:white
 }

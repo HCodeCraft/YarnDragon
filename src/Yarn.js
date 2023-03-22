@@ -1,5 +1,4 @@
 import React from "react";
-import YarnLink from "./YarnLink";
 import { Link} from "react-router-dom";
 import { MyConsumer } from "./Context";
 
