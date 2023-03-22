@@ -33,7 +33,6 @@ const Yarn = (props) => {
           <Link to={`${yarn.id}`}>
             <button>Show notes/plans</button>
           </Link>
-          {/* <YarnLink id={id}/> */}
           <br />
           <br />
         </div>

@@ -20,8 +20,8 @@ function App() {
               <Route path='/' element={<Home />}/>
               <Route path='/yarns' element={<Yarns />}/>
               <Route path='/yarns/new' element={<NewYarnForm />}/>
-              <Route path='yarns/*' element={<YarnDetails />}/>
-              {/* <Route path='/yarns/:id' element={<Yarn />}/> */}
+              <Route path='yarns/:id' element={<YarnDetails />}/>
+              {/* <Route path='/yarns/*' element={<YarnDetails/>}/> */}
               
             </Routes>
          </div>

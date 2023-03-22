@@ -103,3 +103,14 @@ button {
     transform: rotate(360deg);
   }
 }
+
+.text{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title{
+  display:flex;
+  align-items:center;
+}
