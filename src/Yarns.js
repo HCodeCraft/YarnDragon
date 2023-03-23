@@ -14,6 +14,7 @@ const Yarns = () => {
             name={yarn.name}
             image={yarn.image}
             body={yarn.colorway}
+            compositon={yarn.composition}
             key={yarn.name}
             weight={yarn.weight}
             id={yarn.id}

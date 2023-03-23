@@ -39,6 +39,7 @@ const filterYarns = yarnsState.filter( yarn => yarn.weight === filter || filter 
 
     return (<MyContext.Provider value={{
         yarnsState: yarnsState,
+        setYarnsState:setYarnsState,
         addYarn: addYarn,
         changeFilter:changeFilter,
         filterYarns:filterYarns,

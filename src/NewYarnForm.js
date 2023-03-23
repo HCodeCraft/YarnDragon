@@ -24,6 +24,7 @@ const NewYarnForm = () => {
           image: data.image,
           colorway: data.colorway,
           weight: data.weight,
+          composition: data.composition,
           amount: data.amount,
           plans: data.plans,
           origin: data.origin,
@@ -48,6 +49,7 @@ const NewYarnForm = () => {
             image: yarnsState.image,
             colorway: yarnsState.colorway,
             weight: yarnsState.weight,
+            composition:yarnsState.composition,
             amount: yarnsState.amount,
             plans: yarnsState.plans,
             origin: yarnsState.origin,
@@ -96,6 +98,9 @@ const NewYarnForm = () => {
               </select>
               <br />
               <br />
+              <label>Composition:</label>
+              <input name="Composition" onChange={handleChange} type="text" /> <br />
+              <br/>
               <label>Amount:</label>
               <input name="amount" onChange={handleChange} type="text" /> <br />
               <br />
