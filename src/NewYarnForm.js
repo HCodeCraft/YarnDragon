@@ -7,6 +7,8 @@ const NewYarnForm = () => {
     name: "",
     image: "",
     colorway: "",
+    weight: "",
+    composition:"",
     amount: "",
     plans: "",
     origin: "",
@@ -99,7 +101,7 @@ const NewYarnForm = () => {
               <br />
               <br />
               <label>Composition:</label>
-              <input name="Composition" onChange={handleChange} type="text" /> <br />
+              <input name="composition" onChange={handleChange} type="text" /> <br />
               <br/>
               <label>Amount:</label>
               <input name="amount" onChange={handleChange} type="text" /> <br />
