@@ -149,3 +149,8 @@ select{
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+button{
+  margin:10px;
+
+}

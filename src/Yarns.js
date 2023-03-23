@@ -20,6 +20,8 @@ const Yarns = () => {
           />
         ));
 
+  
+
         return (
           <>
             <div className="top-bar">
@@ -34,7 +36,7 @@ const Yarns = () => {
                   <option value="Sock">Sock</option>
                   <option value="Light DK/Sport">Light DK/Sport</option>
                   <option value="DK/Light Worsted">DK/Light Worsted</option>
-                  <option value="Worsted">Light DK/Sport</option>
+                  <option value="Worsted">Worsted</option>
                   <option value="Bulky/Chunky">Bulky/Chunky</option>
                   <option value="Super Bulky">Super Bulky</option>
                 </select>

@@ -20,6 +20,17 @@ const addYarn = (yarn) => {
     setYarnsState([...yarnsState, yarn])
 }
 
+const deleteYarn = (id) => {
+    const newYarnList = (yarnsState.filter((yarn) => yarn.id !== id))
+    setYarnsState(newYarnList)
+      
+}
+
+const showAllYarns = () => {setFilter('All')}
+
+
+
+
 
 const changeFilter = (event) => setFilter(event.target.value)
 
@@ -30,7 +41,10 @@ const filterYarns = yarnsState.filter( yarn => yarn.weight === filter || filter 
         yarnsState: yarnsState,
         addYarn: addYarn,
         changeFilter:changeFilter,
-        filterYarns:filterYarns
+        filterYarns:filterYarns,
+        showAllYarns:showAllYarns,
+        deleteYarn:deleteYarn
+
     }}>
         {props.children}
     </MyContext.Provider>

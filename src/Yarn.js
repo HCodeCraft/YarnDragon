@@ -27,6 +27,7 @@ const Yarn = (props) => {
           <br />
           <p>Weight: {yarn.weight}</p>
         </div>
+        <br/>
 
         <div className="btn">
           <Link to={`${yarn.id}`}>

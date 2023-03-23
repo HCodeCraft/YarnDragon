@@ -20,13 +20,13 @@ const NewYarnForm = () => {
       .then((data) => {
         console.log(data);
         setYarnsState({
-          name: data[0].name,
-          image: data[0].image,
-          colorway: data[0].colorway,
-          weight: data[0].weight,
-          amount: data[0].amount,
-          plans: data[0].plans,
-          origin: data[0].origin,
+          name: data.name,
+          image: data.image,
+          colorway: data.colorway,
+          weight: data.weight,
+          amount: data.amount,
+          plans: data.plans,
+          origin: data.origin,
         });
       });
   }, []);
@@ -64,6 +64,7 @@ const NewYarnForm = () => {
             .then((data) => {
               console.log(data);
               context.addYarn(data)
+              context.showAllYarns()
               navigate("/yarns");
             });
         };
@@ -89,7 +90,7 @@ const NewYarnForm = () => {
                 <option value="Sock">Sock</option>
                 <option value="Light DK/Sport">Light DK/Sport</option>
                 <option value="DK/Light Worsted">DK/Light Worsted</option>
-                <option value="Worsted">Light DK/Sport</option>
+                <option value="Worsted">Worsted</option>
                 <option value="Bulky/Chunky">Bulky/Chunky</option>
                 <option value="Super Bulky">Super Bulky</option>
               </select>
