@@ -4,10 +4,14 @@ import "./Yarn.css";
 import { MyConsumer } from "./Context";
 
 const Yarns = () => {
+
+    // const yarnList = context.yarnsState.map((yarn) => (
+
+
   return (
     <MyConsumer>
       {(context) => {
-        const yarnList = context.yarnsState.map((yarn) => (
+        const yarnList = context.filterYarns.map((yarn) => (
           <Yarn
             name={yarn.name}
             image={yarn.image}
@@ -23,7 +27,7 @@ const Yarns = () => {
             <h1 className="title">My Yarns</h1>
             <div className='yarnfilter'>
                 <h4><label>Filter yarn weight:</label></h4>
-              <select name="weight" onChange={null}>
+              <select onChange={context.changeFilter} name="weight">
                 <option value="All">All</option>
                 <option value="Lace">Lace</option>
                 <option value="Sock">Sock</option>
@@ -34,7 +38,7 @@ const Yarns = () => {
                 <option value="Super Bulky">Super Bulky</option>
               </select>
               </div>
-          <div class="yarn-box">
+          <div className="yarn-box">
             
             {yarnList}
             <br />

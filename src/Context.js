@@ -4,6 +4,7 @@ const MyContext = React.createContext()
 
 const MyProvider = (props) => {
     const [yarnsState, setYarnsState] = useState([])
+    const [filter, setFilter] = useState('All')
 
     useEffect(() => {
         fetch('http://localhost:3001/yarns')
@@ -19,9 +20,16 @@ const addYarn = (yarn) => {
     setYarnsState([...yarnsState, yarn])
 }
 
+const changeFilter = (event) => setFilter(event.target.value)
+
+const filterYarns = yarnsState.filter( yarn => yarn.weight === filter || filter ==='All')
+    
+
     return (<MyContext.Provider value={{
         yarnsState: yarnsState,
-        addYarn: addYarn
+        addYarn: addYarn,
+        changeFilter:changeFilter,
+        filterYarns:filterYarns
     }}>
         {props.children}
     </MyContext.Provider>
