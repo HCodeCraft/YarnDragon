@@ -4,9 +4,7 @@ import "./Yarn.css";
 import { MyConsumer } from "./Context";
 
 const Yarns = () => {
-
-    // const yarnList = context.yarnsState.map((yarn) => (
-
+  // const yarnList = context.yarnsState.map((yarn) => (
 
   return (
     <MyConsumer>
@@ -23,26 +21,29 @@ const Yarns = () => {
         ));
 
         return (
-            <>
-            <h1 className="title">My Yarns</h1>
-            <div className='yarnfilter'>
-                <h4><label>Filter yarn weight:</label></h4>
-              <select onChange={context.changeFilter} name="weight">
-                <option value="All">All</option>
-                <option value="Lace">Lace</option>
-                <option value="Sock">Sock</option>
-                <option value="Light DK/Sport">Light DK/Sport</option>
-                <option value="DK/Light Worsted">DK/Light Worsted</option>
-                <option value="Worsted">Light DK/Sport</option>
-                <option value="Bulky/Chunky">Bulky/Chunky</option>
-                <option value="Super Bulky">Super Bulky</option>
-              </select>
+          <>
+            <div className="top-bar">
+              <h1 className="title">My Yarns</h1>
+              <div className="yarnfilter">
+                <h4>
+                  <label>Filter yarn weight:</label>
+                </h4>
+                <select onChange={context.changeFilter} name="weight">
+                  <option value="All">All</option>
+                  <option value="Lace">Lace</option>
+                  <option value="Sock">Sock</option>
+                  <option value="Light DK/Sport">Light DK/Sport</option>
+                  <option value="DK/Light Worsted">DK/Light Worsted</option>
+                  <option value="Worsted">Light DK/Sport</option>
+                  <option value="Bulky/Chunky">Bulky/Chunky</option>
+                  <option value="Super Bulky">Super Bulky</option>
+                </select>
               </div>
-          <div className="yarn-box">
-            
-            {yarnList}
-            <br />
-          </div>
+            </div>
+            <div className="yarn-box">
+              {yarnList}
+              <br />
+            </div>
           </>
         );
       }}

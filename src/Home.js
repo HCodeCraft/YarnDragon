@@ -4,7 +4,8 @@ import Lotsyarn from './orgyarn.jpg'
 
 const Home = () => {
   return (
-    <div class='home-flex-container'>
+    
+    <div class='content'>
         <div className='Home'>
             <h1 class='welcome'>Welcome to Yarn Dragon!</h1>
             
@@ -12,6 +13,7 @@ const Home = () => {
             <h2>A place to organize your yarn hoard for maximum crafting enjoyment!</h2>
         </div>
     </div>
+    
   )
 }
 
