@@ -20,9 +20,6 @@ const addYarn = (yarn) => {
     setYarnsState([...yarnsState, yarn])
 }
 
-const deleteYarn = (yarn) => {
-    setYarnState([...yarnsState.filter(yarn => !yarn)])
-}
 
 const changeFilter = (event) => setFilter(event.target.value)
 
@@ -33,8 +30,7 @@ const filterYarns = yarnsState.filter( yarn => yarn.weight === filter || filter 
         yarnsState: yarnsState,
         addYarn: addYarn,
         changeFilter:changeFilter,
-        filterYarns:filterYarns,
-        deleteYarn:deleteYarn
+        filterYarns:filterYarns
     }}>
         {props.children}
     </MyContext.Provider>
