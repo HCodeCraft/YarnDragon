@@ -21,8 +21,6 @@ const Yarns = () => {
           />
         ));
 
-  
-
         return (
           <>
             <div className="top-bar">

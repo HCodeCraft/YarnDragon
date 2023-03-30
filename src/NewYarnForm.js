@@ -8,7 +8,7 @@ const NewYarnForm = () => {
     image: "",
     colorway: "",
     weight: "",
-    composition:"",
+    composition: "",
     amount: "",
     plans: "",
     origin: "",
@@ -51,7 +51,7 @@ const NewYarnForm = () => {
             image: yarnsState.image,
             colorway: yarnsState.colorway,
             weight: yarnsState.weight,
-            composition:yarnsState.composition,
+            composition: yarnsState.composition,
             amount: yarnsState.amount,
             plans: yarnsState.plans,
             origin: yarnsState.origin,
@@ -67,8 +67,8 @@ const NewYarnForm = () => {
             .then((r) => r.json())
             .then((data) => {
               console.log(data);
-              context.addYarn(data)
-              context.showAllYarns()
+              context.addYarn(data);
+              context.showAllYarns();
               navigate("/yarns");
             });
         };
@@ -101,8 +101,13 @@ const NewYarnForm = () => {
               <br />
               <br />
               <label>Composition:</label>
-              <input name="composition" onChange={handleChange} type="text" /> <br />
-              <br/>
+              <input
+                name="composition"
+                onChange={handleChange}
+                type="text"
+              />{" "}
+              <br />
+              <br />
               <label>Amount:</label>
               <input name="amount" onChange={handleChange} type="text" /> <br />
               <br />

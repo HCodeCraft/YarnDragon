@@ -10,7 +10,6 @@
   width: 300px;
   overflow: hidden;
   box-shadow: 0px 0px 15px 5px #872d7b;
-  /* box-shadow: 10px 0px 15px -5px #872d7b; */
   transition: 0.3s;
   animation: ease-in;
   color: white;
@@ -77,31 +76,3 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
-
-/* .card-container {
-    box-sizing: border-box;
-    color: white;
-    margin: 3% ; 
-    float: left;
-    border-radius: 15px;
-    align-items: center;
-    justify-content:center;
-    width: 533px;
-    height: 300px;
-    text-align: center;
-    padding: 1rem;
-    overflow: hidden;
-    box-shadow: 0px 0px 15px -5px;
-    transition: 0.5s
-  }
-  
-  .card-container:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 0px 15px -5px;
-  }
-  
-  .image-container{
-    overflow: hidden;
-    height: 200px;
-  
-  } */

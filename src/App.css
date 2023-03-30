@@ -11,7 +11,7 @@ body {
 .yarn-box {
   justify-content: center;
   align-items: center;
-  flex-wrap:nowrap
+  flex-wrap: nowrap;
 }
 
 .content {
@@ -40,10 +40,10 @@ body {
 }
 
 .yarnform {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-content: center;
-  flex-wrap:wrap
+  flex-wrap: wrap;
 }
 
 .title {
@@ -106,51 +106,47 @@ button {
   }
 }
 
-.text{
-  display:flex;
-  align-items:center;
+.text {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  gap:2%
-  
+  gap: 2%;
 }
 
-.title{
-  display:flex;
-  align-items:center;
- 
+.title {
+  display: flex;
+  align-items: center;
 }
 
-.yarnfilter{
-  display:flex;
+.yarnfilter {
+  display: flex;
   flex-wrap: wrap;
-  align-items:baseline;
-  justify-content:end;
-  gap:40%
- 
+  align-items: baseline;
+  justify-content: end;
+  gap: 40%;
 }
 
-select{
-  width:130px;
-  height:30px;
+select {
+  width: 130px;
+  height: 30px;
   background-color: #333333;
-  color:white
+  color: white;
 }
 
-.top-bar{
-  display:flex;
-  justify-content:center
+.top-bar {
+  display: flex;
+  justify-content: center;
 }
 
-#yarnpic{
-  display:inline-flex;
+#yarnpic {
+  display: inline-flex;
   justify-content: center;
   align-content: center;
-  height:300px;
+  height: 300px;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-button{
-  margin:10px;
-
+button {
+  margin: 10px;
 }

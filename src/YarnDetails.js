@@ -22,12 +22,12 @@ const YarnDetails = (props) => {
               }
             })
             .then(() => {
-              const updatedYarns = context.yarnsState.filter((y) => y.id !=id)
-              console.log("updatedYarns", updatedYarns)
-              context.setYarnsState(updatedYarns)
+              const updatedYarns = context.yarnsState.filter((y) => y.id != id);
+              console.log("updatedYarns", updatedYarns);
+              context.setYarnsState(updatedYarns);
               // context.showAllYarns();
               // context.deleteYarn(data)
-            
+
               navigate("/yarns");
             });
         };
