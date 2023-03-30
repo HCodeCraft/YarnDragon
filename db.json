@@ -109,6 +109,149 @@
       "plans": "A shawl",
       "origin": "etsy.com",
       "id": 11
+    },
+    {
+      "name": "Mulberry Silk",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg1.etsystatic.com%2F041%2F0%2F5978043%2Fil_fullxfull.563665305_2sip.jpg&f=1&nofb=1&ipt=86945b379cbd8ab1bb3317505817ca6b753718c9cb92fc59bfa487c87d45fe0f&ipo=images",
+      "colorway": "Mulberry",
+      "weight": "Lace",
+      "composition": "90% wool, 10% silk",
+      "amount": "2 skiens",
+      "plans": "Capelet",
+      "origin": "etsy.com",
+      "id": 12
+    },
+    {
+      "name": "British Wool and Silk Blend yarn",
+      "image": "https://i.etsystatic.com/5800231/r/il/97f35e/2162497413/il_794xN.2162497413_3oyq.jpg",
+      "colorway": "Space Race",
+      "weight": "Lace",
+      "composition": "55% fine superwash British Bluefaced Leicester wool, 45% silk",
+      "amount": "3 skiens",
+      "plans": "A shawl",
+      "origin": "etsy.com",
+      "id": 13
+    },
+    {
+      "name": "Jewel Yarn",
+      "image": "https://i.etsystatic.com/5602916/r/il/3edf8e/704692000/il_794xN.704692000_m7gb.jpg",
+      "colorway": "Dryad",
+      "weight": "Lace",
+      "composition": "Tencel",
+      "amount": "1 skien",
+      "plans": "Head scarf",
+      "origin": "etsy.com",
+      "id": 14
+    },
+    {
+      "name": "Knit Picks Hawthorne",
+      "image": "https://www.artnews.com/wp-content/uploads/2022/04/3-2.jpg?resize=450,253",
+      "colorway": "Jade District",
+      "weight": "Sock",
+      "composition": "Nylon, Wool",
+      "amount": "2 skiens",
+      "plans": "Make socks",
+      "origin": "Amazon.com",
+      "id": 15
+    },
+    {
+      "name": "Handdyed Merino",
+      "image": "https://i.etsystatic.com/5306163/r/il/706adb/734490981/il_680x540.734490981_aro8.jpg",
+      "colorway": "Lucky",
+      "weight": "DK/Light Worsted",
+      "composition": "Superwash Merino wool",
+      "amount": "2 skiens",
+      "plans": "Scarf",
+      "origin": "etsy.com",
+      "id": 16
+    },
+    {
+      "name": "DK Pure",
+      "image": "https://cdn.shopify.com/s/files/1/0683/1945/products/c1fa2c2997761510338ba35eca56c831_1512x.jpg?v=1660165947",
+      "colorway": "Carribean",
+      "weight": "DK/Light Worsted",
+      "composition": "90% merino wool sw, 10% silk",
+      "amount": "280 yards",
+      "plans": "Lap blanket",
+      "origin": "biscotteyarns.com",
+      "id": 17
+    },
+    {
+      "name": "Super 10 Egyptian",
+      "image": "https://i.etsystatic.com/6052322/r/il/4cbd40/411193302/il_680x540.411193302_3cc7.jpg",
+      "colorway": "Peony Pink Mauve Rose",
+      "weight": "DK/Light Worsted",
+      "composition": "Cotton",
+      "amount": "249 yards",
+      "plans": "To gaze upon it's beauty",
+      "origin": "etsy.com",
+      "id": 18
+    },
+    {
+      "name": "Silk Roving Worsted Weight Yarn",
+      "image": "https://cdn.shopify.com/s/files/1/1346/5473/products/Untitleddesign_62_900x.jpg?v=1677987627",
+      "colorway": "Vibrant Macaroon",
+      "weight": "Worsted",
+      "composition": "Silk",
+      "amount": "75 yards",
+      "plans": "Drink coaster",
+      "origin": "darngoodyarn.com",
+      "id": 19
+    },
+    {
+      "name": "Universal Cottonwood",
+      "image": "https://i.etsystatic.com/13189920/r/il/99c435/2381811427/il_fullxfull.2381811427_lnj4.jpg",
+      "colorway": "Rose",
+      "weight": "Worsted",
+      "composition": "Cotton",
+      "amount": "230 yards",
+      "plans": "Oven mitt",
+      "origin": "generalbailyfarm.com",
+      "id": 20
+    },
+    {
+      "name": "True Blue",
+      "image": "https://cdn.supadupa.me/shop/1177/images/1807408/True_Blue_Solid_grande.jpg?1424403472",
+      "colorway": "Blue",
+      "weight": "Worsted",
+      "composition": "Merino",
+      "amount": "165 yards",
+      "plans": "Headscarf",
+      "origin": "eweandmeyarns.com",
+      "id": 21
+    },
+    {
+      "name": "Clock Works Hand Dyed",
+      "image": "https://cdn.supadupa.me/shop/1177/images/2220187/Mount_Tourquoise_Worsted_eweandmeyarns.com_grande.jpg?1457475042",
+      "colorway": "Clock Works",
+      "weight": "Worsted",
+      "composition": "Merino wool",
+      "amount": "330 yards",
+      "plans": "Unsure",
+      "origin": "eweandmeyarns.com",
+      "id": 22
+    },
+    {
+      "name": "OMBRÉ SUPER BULKY YARN",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffreiafibers.com%2Fuploads%2F1%2F1%2F4%2F3%2F114374823%2Fs931592299746872816_p3_i153_w2448.jpeg&f=1&nofb=1&ipt=7087c4eeb3b3bb3ff961b1bf82099aad981c25fc671447b02cdfff03f7877143&ipo=images",
+      "colorway": "Woodsman",
+      "weight": "Super Bulky",
+      "composition": "Wool",
+      "amount": "87 yards",
+      "plans": "Hat",
+      "origin": "freiafibers.com",
+      "id": 23
+    },
+    {
+      "name": "Paton's Classic Wool",
+      "image": "https://i5.walmartimages.com/asr/43de7631-7aaf-44d0-bb59-13e81d25ad62_1.f08b96cde5d7ff7fb51fbbb26835f56e.jpeg",
+      "colorway": "Burnt Orange",
+      "weight": "Bulky/Chunky",
+      "composition": "Wool",
+      "amount": "80 yards",
+      "plans": "Hat",
+      "origin": "walmart.com",
+      "id": 25
     }
   ]
 }

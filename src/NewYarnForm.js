@@ -90,6 +90,7 @@ const NewYarnForm = () => {
               <br />
               <label>Weight:</label>
               <select name="weight" onChange={handleChange}>
+                <option value=""></option>
                 <option value="Lace">Lace</option>
                 <option value="Sock">Sock</option>
                 <option value="Light DK/Sport">Light DK/Sport</option>
