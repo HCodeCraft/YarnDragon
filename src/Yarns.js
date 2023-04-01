@@ -4,8 +4,6 @@ import "./Yarn.css";
 import { MyConsumer } from "./Context";
 
 const Yarns = () => {
-  // const yarnList = context.yarnsState.map((yarn) => (
-
   return (
     <MyConsumer>
       {(context) => {
