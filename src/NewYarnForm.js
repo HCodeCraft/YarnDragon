@@ -16,23 +16,6 @@ const NewYarnForm = () => {
 
   const navigate = useNavigate();
 
-  useEffect(() => {
-    fetch("http://localhost:3001/yarns")
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setYarnsState({
-          name: data.name,
-          image: data.image,
-          colorway: data.colorway,
-          weight: data.weight,
-          composition: data.composition,
-          amount: data.amount,
-          plans: data.plans,
-          origin: data.origin,
-        });
-      });
-  }, []);
 
   return (
     <MyConsumer>
