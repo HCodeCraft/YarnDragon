@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { MyConsumer } from "./Context";
 
-// name, image, body, weight, id
 
 const Yarn = (props) => {
   return (

@@ -16,18 +16,10 @@ const YarnDetails = (props) => {
           fetch(`http://localhost:3001/yarns/${id}`, {
             method: "DELETE",
           })
-            .then((r) => {
-              if (r.ok) {
-                console.log("It was deleted!");
-              }
-            })
             .then(() => {
               const updatedYarns = context.yarnsState.filter((y) => y.id != id);
               console.log("updatedYarns", updatedYarns);
               context.setYarnsState(updatedYarns);
-              // context.showAllYarns();
-              // context.deleteYarn(data)
-
               navigate("/yarns");
             });
         };
