@@ -8,7 +8,7 @@ const Yarn = (props) => {
   return (
     <MyConsumer>
       {(context) => {
-        const yarn = context.yarnsState.find((y) => y.id == props.id);
+        const yarn = context.yarnsState.find((y) => y.id === props.id);
 
         return (
           <div className="card-container">

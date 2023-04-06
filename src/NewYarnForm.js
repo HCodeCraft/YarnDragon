@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { MyConsumer } from "./Context";
 
@@ -15,7 +15,6 @@ const NewYarnForm = () => {
   });
 
   const navigate = useNavigate();
-
 
   return (
     <MyConsumer>

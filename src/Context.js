@@ -14,8 +14,6 @@ const MyProvider = (props) => {
       });
   }, []);
 
-  console.log("yarnsState", yarnsState);
-
   const addYarn = (yarn) => {
     setYarnsState([...yarnsState, yarn]);
   };
