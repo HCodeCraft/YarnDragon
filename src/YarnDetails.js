@@ -2,9 +2,7 @@ import React from "react";
 import { MyConsumer } from "./Context";
 import { useParams, useNavigate } from "react-router-dom";
 
-const YarnDetails = (props) => {
-  console.log("YarnDetails' props id", props);
-
+const YarnDetails = () => {
   const { id } = useParams();
 
   const navigate = useNavigate();
@@ -15,13 +13,11 @@ const YarnDetails = (props) => {
         const handleDelete = (id) => {
           fetch(`http://localhost:3001/yarns/${id}`, {
             method: "DELETE",
-          })
-            .then(() => {
-              const updatedYarns = context.yarnsState.filter((y) => y.id != id);
-              console.log("updatedYarns", updatedYarns);
-              context.setYarnsState(updatedYarns);
-              navigate("/yarns");
-            });
+          }).then(() => {
+            const updatedYarns = context.yarnsState.filter((y) => y.id != id);
+            context.setYarnsState(updatedYarns);
+            navigate("/yarns");
+          });
         };
 
         const yarn = context.yarnsState.find((y) => y.id == id);
