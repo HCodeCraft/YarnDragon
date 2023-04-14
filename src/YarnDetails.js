@@ -14,19 +14,19 @@ const YarnDetails = () => {
           fetch(`http://localhost:3001/yarns/${id}`, {
             method: "DELETE",
           }).then(() => {
-            const updatedYarns = context.yarnsState.filter((y) => y.id != id);
+            const updatedYarns = context.yarnsState.filter((y) => y.id !== id);
             context.setYarnsState(updatedYarns);
             navigate("/yarns");
           });
         };
 
-        const yarn = context.yarnsState.find((y) => y.id == id);
+        const yarn = context.yarnsState.find((y) => y.id === id);
 
         return (
           <div>
             <h1 className="title">{yarn.name}</h1>
             <div className="content">
-              <img id="yarnpic" src={yarn.image} alt="yarn image" />
+              <img id="yarnpic" src={yarn.image} alt="yarn" />
             </div>
             <div>
               <div className="text">
