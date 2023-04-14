@@ -14,13 +14,13 @@ const YarnDetails = () => {
           fetch(`http://localhost:3001/yarns/${id}`, {
             method: "DELETE",
           }).then(() => {
-            const updatedYarns = context.yarnsState.filter((y) => y.id !== id);
+            const updatedYarns = context.yarnsState.filter((y) => y.id != id);
             context.setYarnsState(updatedYarns);
             navigate("/yarns");
           });
         };
 
-        const yarn = context.yarnsState.find((y) => y.id === id);
+        const yarn = context.yarnsState.find((y) => y.id == id);
 
         return (
           <div>
